@@ -1,0 +1,35 @@
+* {
+    margin:0;
+    padding:0;
+}
+.fullview {
+    width:1280px;
+    height:720px;
+    border: 2px solid white;
+    margin: auto;
+}
+
+.preview {
+    display:flex;
+    width:1280px;
+    overflow: scroll;
+   margin: auto;
+}
+    
+li {
+    list-style: none;
+}
+
+li>img {
+    /* width:320px; */
+    height: 180px;
+    border: 2px solid white;
+   
+}
+
+.choose {
+    border: 3px solid grey;
+    
+}
+
+    
