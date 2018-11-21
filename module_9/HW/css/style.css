@@ -1,0 +1,39 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.style {
+    
+    margin:auto; 
+    text-align: center;
+    width:600px;
+}
+
+.btn {
+    font-size:25px;
+    color: blue;
+    font-weight: bold;
+    width:150px;
+    height:40px;
+    background-color: aqua;
+    border: 1px solid aqua;
+}
+
+p {
+    margin-top:30px;
+    font-size:40px;
+    color: blue;
+    font-weight: bold;
+}
+
+ul {
+    margin-top:30px;
+    
+}
+
+ul>li {
+    list-style: none;
+    color: blue;
+    font-size: 20px;
+}
