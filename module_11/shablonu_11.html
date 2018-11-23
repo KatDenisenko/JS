@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Module_11</title>
+    <link rel="stylesheet" href="./css/shablonu_11.css">
+</head>
+<body>
+        <div class="gallery">
+                <div class="gallery-content">
+                 <template id="template-id">
+                    <h2 class="gallery-title">{{title}}</h2>
+                    <div class="gallery-content">
+                    {{#each items}}
+                    <div class="gallery-item">
+                        <img class="gallery-img" src="{{img}}" alt="{{text}}">
+                        <p class="gallery-text">{{text}}</p>
+                    </div>
+                    {{/each}}
+                    </div>
+                </template>
+                </div>
+            </div>
+
+  <!-- <div class = "content-placeholder"> </div>
+
+  <template id="built-in-helpers-template">
+        {{#each animals}}
+        <p>
+            The {{name}} says
+            {{#if noise}}
+            {{noise}}.
+            {{else}}
+            nothing since its a {{name}}.
+            {{/if}}
+        </p>
+        {{/each}}
+    </template>
+
+    <template id="assigment_3">
+        <h2> {{title}} </h2>
+        <ul>
+                {{#each items}}
+                <li>{{this}}</li>
+                {{/each}}
+        </ul>
+    </template>
+
+    <template id="assigment">
+        <h2 class="header" > Мы используем библиотеку шаблонизаторов {{title}} </h2>
+        <p class="p1">В нём есть дополнительные функции {{helpers}} </p>
+        <p class="p2">Основная функция, которую мы используем {{func}} </p>
+
+    </template>
+
+  <template id = "address-template">
+      <P>You can find me in {{city}}. My adress is {{street}} {{number}}</P>
+  </template>
+
+  <template id = "name-template">
+      {{#each people}}
+        <P>{{firstName}} {{lastName}}</P>
+        <P>{{this}}</P> this используем если массив задан элементами без объектов ['a','b','c','d'] -->
+        <!-- {{/each}}
+    </template> -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+    <!-- библиотеки подключаем всегда перед нашим скриптом -->
+    <script src="./JS/shablonu_11.js"></script>
+
+</body>
+</html>
